@@ -1,0 +1,42 @@
+alias ll='ls -al'
+alias gs='git status'
+alias gc='git checkout'
+alias cm='git commit -m'
+alias gd='git diff'
+alias ga='git add'
+alias grm='git rm -rf'
+alias gf='git fetch origin'
+alias gb='git branch'
+alias gm='git merge'
+alias gp='git push origin'
+alias st='git stash'
+alias sp='git stash pop' 
+alias cobra='cd /Users/webyog/Documents/workspace/vagrant/cm/programs/cobra/repo/current'
+alias dragon='cd /Users/webyog/Documents/workspace/vagrant/cm/programs/dragon/repo/current/src'
+alias vg='cd ~/Documents/workspace/vagrant'
+alias ws='cd ~/Documents/workspace'
+alias dt='git difftool'
+
+mt() {
+mosh $1 -- tmux new-session -A -s mz
+}
+
+export LANG=en_US.UTF-8 LC_CTYPE=en_US.UTF-8 LC_ALL=en_US.UTF-8
+
+# Setting PATH for Python 3.6
+# The original version is saved in .profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
+export PATH
+
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+
+##
+# Your previous /Users/webyog/.profile file was backed up as /Users/webyog/.profile.macports-saved_2017-08-01_at_14:23:49
+##
+
+# MacPorts Installer addition on 2017-08-01_at_14:23:49: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+# Finished adapting your PATH environment variable for use with MacPorts.
+
