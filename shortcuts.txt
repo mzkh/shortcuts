@@ -14,6 +14,8 @@ alias sp='git stash pop'
 alias ws='cd ~/Documents/workspace'
 alias dt='git difftool'
 
+#  git config --global push.default current
+
 mt() {
 mosh $1 -- tmux new-session -A -s mz
 }
